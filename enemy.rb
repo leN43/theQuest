@@ -6,7 +6,7 @@ class Enemy
       @movement_speed = 10
       @direction = :left
       @sprite = Sprite.new(
-        'dragon.png',
+        'assets/images/dragon.png',
         width: 300,
         height: 300,
         y: 100,

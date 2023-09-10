@@ -4,9 +4,9 @@ class Flame
     SPEED = 5  # Adjust the speed as needed
   
     def initialize(x, y, direction)
-      Sound.new('flameNoise.ogg').play
+      Sound.new('assets\sounds\flameNoise.ogg').play
       @image = Sprite.new(
-        'fire.png',
+        'assets\images\fire.png',
         x: x,
         y: y,
         width: WIDTH,

@@ -4,7 +4,7 @@ class Hero
       @health = 100
       @direction = :right
       @sprite = Sprite.new(
-        'hero.png',
+        'assets\images\hero.png',
         width: 128,
         height: 128,
         clip_width: 128,

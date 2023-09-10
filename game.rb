@@ -6,10 +6,9 @@ require './hero'
 # Set the window size
 set width: 800, height: 450, title: 'QUEST'
 walk_speed = 3
-music = Music.new("bgMusicTavern.ogg", loop: true)
+music = Music.new('assets\sounds\bgMusicTavern.ogg', loop: true)
 music.play
-fond = Image.new('citySky.png')
-sound = Sound.new("walkNoise.ogg")
+fond = Image.new('assets\images\citySky.png')
 hero = Hero.new
 enemy = Enemy.new
 @flame = nil  # Initialize @flame as nil initially
