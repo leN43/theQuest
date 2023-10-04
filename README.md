@@ -12,17 +12,6 @@
     <br/>
   </p>
 </p>
-## Table Of Contents
-
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Contributing](#contributing)
-* [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
-
 ## About The Project
 Made in 5 day a simple game 
 
