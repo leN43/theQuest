@@ -47,7 +47,6 @@ class Flame
         enemies.each do |enemy|
           if @image.intersect?(enemy.sprite) && !enemy.destroyed?
             enemy.decrease_health(10)  # Adjust the amount as needed
-            # Optionally, you can remove the flame after a collision
             @image.remove
           end
         end
